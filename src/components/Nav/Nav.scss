@@ -1,0 +1,25 @@
+.navBar {
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  display: flex;
+  .logo {
+    height: auto;
+    width: 4rem;
+    z-index: 1;
+    margin-left: 1rem;
+    opacity: 0.6;
+  }
+  .mainNav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: center;
+    gap: 1rem;
+
+    .navItems {
+      list-style: none;
+      z-index: 1;
+      color: white;
+    }
+  }
+}
